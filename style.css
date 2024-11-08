@@ -1,0 +1,225 @@
+body {
+    color: #575757;
+    font-family: sans-serif;
+    margin: 0px;
+}
+.body div,footer{
+    margin-left: 21%;
+}
+#nav-menu {
+    background-color: #202020;
+    width: 21%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    box-shadow: 1px 1px rgba(22, 22, 22, 0.153);
+}
+hr {
+    color: #33323296;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logo {
+    padding-top: 50px;
+    margin-bottom: 35px;
+}
+a {
+    text-decoration: none;
+    color: #999999;
+}
+a:hover,#activeHome{
+    color: white;
+}
+a:focus{
+    color: white;
+}
+#bgimg{
+    background-image:url("image/full-2.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.397);
+    background-blend-mode:color;
+    text-align: center;
+    padding-top: 218px;
+    padding-bottom: 150px;
+    color: rgb(238, 238, 238);
+}
+#title{
+    font-size: 70px;
+    font-weight:300 ;
+    color: white;
+    margin-top: -15px;
+}
+#bgimg p{
+    font-size: 20px;
+    line-height: 35px;
+}
+button{
+    color: black;
+    font-weight: 600;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.87);
+    color: black;
+}
+#facebook,#google,#linkedin,#twitter{
+    display: inline-block;
+    margin: 5px;
+}
+#facebook>img:hover{
+    content: url(image/facebook.png);
+    
+}
+#google>img:hover{
+    content: url(image/social.png);
+    
+}
+#linkedin>img:hover{
+    content: url(image/linkedin.png);
+}
+#twitter>img:hover{
+    content: url(image/twitter.png);
+   
+}
+#welcome{
+    background-color: #161616;
+    text-align: center;
+}
+#arrowTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+h2{
+    color: white;
+    margin-top: -2px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+#welcome>p{
+    margin-bottom: 0px;
+    line-height: 35px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+#about{
+    background-color: #1d1d1d;
+    padding: 80px 20px;
+    display: flex;
+}
+#about>div{
+    vertical-align: top;
+    margin-left: 70px;
+    line-height: 30px;
+    flex: 2;
+    color: rgb(156, 154, 154);
+}
+#about>div>h2{
+    padding-top: 30px;
+}
+#middle{
+    width: 45px;
+    margin-left: 0px;
+    color: #303030;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#latestAlbums{
+    background-color: #161616;
+    text-align: center;
+    color: rgb(156, 154, 154);
+    padding-bottom: 70px;
+}
+#latestAlbums>p{
+    margin-bottom: 60px;
+    font-size: large;
+}
+#latestAlbums>ul>li{
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+#latestAlbums>ul>li>a:focus,#showall{
+    color: white;
+    border-bottom: 1px solid #363636;
+    padding-bottom: 2px;
+}
+iframe{
+    margin-left: -120px;
+    margin-right: -115px;
+    border: none;
+    width: 98%;
+    height: 1000px;;
+}
+#view{
+    display: block;
+    background-color: #303030;
+    width: 110px;
+    font-size: 11px;
+    margin: auto;
+    margin-top: -223px;
+}
+#view>a,#blog>a{
+    color: white;
+}
+#latestNews{
+    background-color: #1d1d1d;
+    text-align: center;
+    color: rgb(156, 154, 154);
+    padding-bottom: 70px;
+}
+.news{
+    display: inline-block;
+    background-color: #232323;
+    width: 278px;
+    padding: 20px;
+    margin-right: 25px;
+    margin-top: 40px;
+    text-align: left;
+}
+.news>h5,.news>h5>a{
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.news p{
+    line-height: 30px;
+}
+.news>a,.news>a>img{
+    color: #cfcfcf;
+    font-size: 14px;
+    vertical-align: bottom;
+    margin-right: 100px;
+}
+.news>a>img{
+    margin-left: 3px;
+}
+#blog{
+    display: block;
+    background-color: #303030;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+#blog img{
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+footer{
+    background-color: #161616;
+    text-align: center;
+    padding-bottom: 60px;
+}

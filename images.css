@@ -1,0 +1,9 @@
+.images{
+    cursor: pointer;
+    vertical-align: top;
+}
+.images:hover{
+    opacity: 0.5;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
